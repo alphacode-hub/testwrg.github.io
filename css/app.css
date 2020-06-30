@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cantora+One&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    font-size: 20px;
+    /**font-family: 'Anton', sans-serif;**/
+    font-family: 'Cantora One', sans-serif;
+    color: whitesmoke;
+}
+/**
+.grid-container {
+    border: 1px solid red;
+}
+
+.grid-x {
+    border: 2px solid green;
+}
+
+.grid-y {
+    border: 3px solid blue;
+}
+
+.cell {
+    background-color: lightblue;
+    border: 1px dotted purple;
+}
+**/
+.servicios {
+    background: hsla(243, 100%, 9%, 0.50);
+   z-index: 3;
+}
+
+.textTool span, .textLan span, .textCctv span, .textPos span {
+    text-shadow: 2px 2px 8px hsla(0, 0%, 0%, 0.5);
+    border-bottom: 2px solid yellow;
+z-index: 4;
+    
+}
+.fondo {
+    background: url('/static/887.jpg') no-repeat center;
+    background-size: cover;
+    
+}
+
+
+
+.logo {
+    width: 50%;
+}
