@@ -40,7 +40,7 @@ z-index: 4;
     
 }
 .fondo {
-    background: url('/static/887.jpg') no-repeat center;
+    background: url('../static/887.jpg') no-repeat center;
     background-size: cover;
     
 }
